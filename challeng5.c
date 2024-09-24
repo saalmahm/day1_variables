@@ -7,7 +7,7 @@ float C;
   if(C < 0){
      printf("solide");
   }
-  else if( C<=0 || C<100 ){
+  else if( C<=0 && C<100 ){
      printf("Liquide");
   }
   else if(C >= 100) {
