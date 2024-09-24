@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main() {
 float a,b,c,moy;
@@ -8,7 +9,7 @@ float a,b,c,moy;
   scanf("%f",&b);
   printf("Entrer le troisieme nombre:\n");
   scanf("%f",&c);
-moy=pow((a * b * c),(1/3));
+moy=cbrt(a * b * c);
  printf("la moyenne géométrique est:%f",moy);
   return 0;
 }
